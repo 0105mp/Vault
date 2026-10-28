@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Vault Quick Copy",
+  "version": "1.0",
+  "description": "Copy saved logins from your local Vault password manager. Requires the Vault desktop app to be running and unlocked.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["storage"],
+  "host_permissions": ["http://127.0.0.1/*"]
+}
